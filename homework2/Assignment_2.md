@@ -4,6 +4,8 @@ are included: estimated time en route, alternate airports in case of detouring, 
 Also known as ight path, a route consists of line segments located on a map that aid the aircraft to navigate from the departure to the destination airports. Although there are several types of routes, with diferent attributes such as altitude and airspeed, we will consider a route to be defined as a sequence of two-dimensional line segments on a map. A single flight plan may include more than one ight path; that is, diferent routes for diferent scenarios.
 Flight planning also involves the identification of airports which can be own to in case of unexpected conditions at the destination airport or along the route. The flight plan should only include alternate airports or locations which can be reached with the current fuel load and that have the capabilities necessary to handle the type of aircraft being own.
 
+## Strategy
+
 ## Problem
 Design and implement a computational application that addresses features of a flight plan. The functionality required evaluates aspects of the 
 ight plan, given a set of airport sites, and departure and destination points of the flight. These aspects include global and local properties
@@ -24,3 +26,6 @@ how populated are the airports in order to cause the less damage. Report the nam
 locations, of the airports with the smallest and the largest number of neighboring airports.
 Make sure that this search problem is solved in linear time in the structural complexity of the
 Voronoi diagram.
+
+##References
+* J.J. Rincón, Universidad del Rosario. Midterm assignment 1. September 3, 2021. Computational and Differential Geometry 2021-2. Bogotá, Colombia
