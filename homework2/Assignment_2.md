@@ -26,7 +26,7 @@ Make sure that this search problem is solved in linear time in the structural co
 Voronoi diagram.
 
 ## References
-* J.J. Rincón, Universidad del Rosario. Midterm assignment 1. September 3, 2021. Computational and Differential Geometry 2021-2. Bogotá, Colombia
+* J.J. Rincón, Universidad del Rosario. Midterm assignment 2. September 21, 2021. Computational and Differential Geometry 2021-2. Bogotá, Colombia
 * F. Aurenhammer and R. Klein. Voronoi Diagrams. In J.-R. Sack and J. Urrutia, editors, Handbook
 of Computational Geometry, chapter 5, pages 201-290. North Holland, 2000.
 * M. de Berg, O. Cheong, M. van Kreveld, and M. Overmars. Computational Geometry: Algorithms
