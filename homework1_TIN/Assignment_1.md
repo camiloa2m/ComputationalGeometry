@@ -33,7 +33,7 @@ Delaunay triangulations. Having this we can work on the implementation of the ap
 1. Find a complete pipe network. Such network is defined as a planar graph connecting all the locations sampled; namely, it is the Euclidian minimum spanning tree of the sample points.
 
 ## References
-L. De Floriani, P. Magillo, and E. Puppo. Applications of Computational Geometry to Geographic Information Systems. In J.-R. Sack and J. Urrutia, editors, Handbook of Computational Geometry,
+* J.J. Rincón, Universidad del Rosario. Midterm assignment 1. September 3, 2021. Computational and Differential Geometry 2021-2. Bogotá, Colombia.
+* L. De Floriani, P. Magillo, and E. Puppo. Applications of Computational Geometry to Geographic Information Systems. In J.-R. Sack and J. Urrutia, editors, Handbook of Computational Geometry,
 chapter 7, pages 333-388. North Holland, 2000.
-L. Floriani and P. Magillo. Algorithms for Visibility Computation on Terrains: A Survey. Environment and Planning B: Planning and Design 30, issue 5, pages 709-728 (2003).
-J.J Rincon, Universidad del Rosario. Midterm assignment 1. September 3, 2021. Computational and Differential Geometry 2021-2. Bogotá, Colombia.
+* L. Floriani and P. Magillo. Algorithms for Visibility Computation on Terrains: A Survey. Environment and Planning B: Planning and Design 30, issue 5, pages 709-728 (2003).
