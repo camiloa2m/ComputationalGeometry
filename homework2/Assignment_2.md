@@ -4,14 +4,12 @@ are included: estimated time en route, alternate airports in case of detouring, 
 Also known as ight path, a route consists of line segments located on a map that aid the aircraft to navigate from the departure to the destination airports. Although there are several types of routes, with diferent attributes such as altitude and airspeed, we will consider a route to be defined as a sequence of two-dimensional line segments on a map. A single flight plan may include more than one ight path; that is, diferent routes for diferent scenarios.
 Flight planning also involves the identification of airports which can be own to in case of unexpected conditions at the destination airport or along the route. The flight plan should only include alternate airports or locations which can be reached with the current fuel load and that have the capabilities necessary to handle the type of aircraft being own.
 
-## Strategy
-
 ## Problem
-Design and implement a computational application that addresses features of a flight plan. The functionality required evaluates aspects of the 
-ight plan, given a set of airport sites, and departure and destination points of the flight. These aspects include global and local properties
-such as preprocessing of airport sites, nearest and farthest airports, types of flight paths or routes, potential threats, and desolated areas.
-We will treat locations or points on the map as defined by an ordered pair (latitude and longitude) and measure all distances using the standard
-Euclidean norm in the plane. The methods must satisfy the following specifications:
+Design and implement a computational application that addresses features of a flight plan. The functionality required evaluates aspects of the flight plan, given a set of airport sites, and departure and destination points of the flight. These aspects include global and local properties such as preprocessing of airport sites, nearest and farthest airports, types of flight paths or routes, potential threats, and desolated areas.
+We will treat locations or points on the map as defined by an ordered pair (latitude and longitude) and measure all distances using the standard Euclidean norm in the plane. 
+
+## Test suite, with the following specifications:
+The methods must satisfy the following specifications:
 1. Airport coverage area. It is always important to know how large and what population is
 serviced by a given airport; this helps minimizing the ration of fuel to passenger number.
 Find the airport names that cover the biggest and smallest areas of service. Notice that this
@@ -27,5 +25,9 @@ locations, of the airports with the smallest and the largest number of neighbori
 Make sure that this search problem is solved in linear time in the structural complexity of the
 Voronoi diagram.
 
-##References
+## References
 * J.J. Rincón, Universidad del Rosario. Midterm assignment 1. September 3, 2021. Computational and Differential Geometry 2021-2. Bogotá, Colombia
+* F. Aurenhammer and R. Klein. Voronoi Diagrams. In J.-R. Sack and J. Urrutia, editors, Handbook
+of Computational Geometry, chapter 5, pages 201-290. North Holland, 2000.
+* M. de Berg, O. Cheong, M. van Kreveld, and M. Overmars. Computational Geometry: Algorithms
+and Applications. Third edition. Springer-Verlag, 2008.
