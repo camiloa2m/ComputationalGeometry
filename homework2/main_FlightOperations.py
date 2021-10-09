@@ -17,9 +17,8 @@ print('New data shape borders_CO:', borders_pts.shape)
 # We read airports_CO.dat
 airports_data = pd.read_csv(
     'airports_CO.dat',
-    sep="    ",
-    names=['lat', 'lon', 'alt', 'city', 'dept', 'airport_name'],
-    engine='python')
+    delim_whitespace = True,
+    names=['lat', 'lon', 'alt', 'city', 'dept', 'airport_name'])
 print('Data type airports_CO:', type(airports_data))
 print('Data shape airports_CO:', airports_data.shape)
 print('DataFrame airports_CO:\n', airports_data.head)
