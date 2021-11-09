@@ -45,7 +45,7 @@ different colors for x- and y-coordinates.
 
 The solution to each problem must generate a plot clearly showing and labeling the
 answer; you may also print extra information to the terminal with further details. Regarding input
-data, randomly generate around 10-100 points in the interval R = [-1,1] \times [-1,1].
+data, randomly generate around 10-100 points in the interval R = [-1,1] x [-1,1].
 
 ## References
 * J.J. Rincón, Universidad del Rosario. Midterm assignment 3. October 12, 2021. Computational and Differential Geometry 2021-2. Bogotá, Colombia
